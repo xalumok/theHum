@@ -7,7 +7,6 @@ $(".home-slider").owlCarousel({
     animateIn: 'fadeIn',
     items: 1,
     margin: 30,
-    stagePadding: 30,
     smartSpeed: 1000,
     loop: true,
     autoplay: true,

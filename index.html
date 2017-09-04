@@ -6,13 +6,14 @@
 
     <link rel="stylesheet" href="lis/bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="lis/bootstrap-3.3.7/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/fontie-package/Montserrat.css">
     <link rel="stylesheet" href="lis/icomoon/style.css">
     <link rel="stylesheet" href="lis/animate.css/animate.css">
     <link rel="stylesheet" href="lis/OwlCarousel2-2.2.1/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="lis/OwlCarousel2-2.2.1/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
-<body style="padding-top: 120px;">
+    <link rel="stylesheet" href="css/style.css">
+
+<body>
 
     <header>
         <nav class="nav navbar-default ham-nav">
@@ -53,7 +54,24 @@
 
     <main>
         <section id="ham-home" class="ham-home ham-home-bg">
-                <div class="home-slider-item" style="background-image: url('img/bg-img1.jpg')"></div>
+            <div class="slider-wrap">
+                <div class="home-slider owl-carousel owl-theme">
+                    <div class="home-slider-item" style="background-image: url('img/bg-img3.jpg')">1</div>
+                    <div class="home-slider-item" style="background-image: url('img/bg-img2.jpg')">2</div>
+                    <div class="home-slider-item" style="background-image: url('img/bg-img1.jpg')">3</div>
+                </div>
+                <div class="centered-element text-center">
+                    <h2>
+                        The ham is
+                        <span class="primary-color">wordpress theme</span>
+                    </h2>
+                    <h1>we are creative</h1>
+                    <p>Just Buy And Enjoy These Awesome Features</p>
+                    <div class="home-buttons">
+                        <button class="btn btn-success ham-btn">Explore now</button>
+                        <button class="btn btn-info ham-btn">Purchase now</button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
